@@ -1,1 +1,1 @@
-[LINK](https://The-DigitalAcademy.github.io/sithembiso_my_cv)
+[LINK](https://the-digitalacademy.github.io/sithembiso_my_cv/)
