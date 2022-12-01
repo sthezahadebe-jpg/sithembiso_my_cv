@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import SoicalLinks from './components/SoicalLinks';
 import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
+      <Experience />
       
       <SoicalLinks />
     </div>
