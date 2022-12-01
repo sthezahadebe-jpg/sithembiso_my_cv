@@ -4,6 +4,7 @@ import About from './components/About';
 import SoicalLinks from './components/SoicalLinks';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
-      
+      <Contact />
       <SoicalLinks />
     </div>
       

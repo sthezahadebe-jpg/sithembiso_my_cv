@@ -1,14 +1,13 @@
 import React from 'react';
-import ArrayDestruct from '../assets/portfolio/ArrayDestruct.jpeg';
 import InstallNodejs from '../assets/portfolio/InstallNodejs.png';
 import NavBar from '../assets/portfolio/NavBar.jpeg';
 import Html from '../assets/portfolio/Html.png';
-import Gitg_ithub from '../assets/portfolio/Git_github.png';
+import Git_github from '../assets/portfolio/Git_github.png';
 import Bootstrap from '../assets/portfolio/Bootstrap.png';
 import Trello from '../assets/portfolio/Trello.webp';
 import Discord from '../assets/portfolio/Discord.jpeg';
 import Slack from '../assets/portfolio/Slack.webp';
-import Css3 from '../assets/portfolio/Css3.png';
+import Css2 from '../assets/portfolio/Css2.png';
 import JavaScript from '../assets/portfolio/JavaScript.png';
 
 const Portfolio = () => {
@@ -16,7 +15,7 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: ArrayDestruct
+            src: Git_github
         }, 
         {
             id: 2,
@@ -36,19 +35,19 @@ const Portfolio = () => {
         },
         {
             id: 6,
-            src: Trello
+            src: Css2
         },
         {
             id: 7,
-            src: Discord
+            src: Trello
         },
         {
             id: 8,
-            src: Slack
+            src: Discord
         },
         {
             id: 9,
-            src: Css3
+            src: Slack
         },
 
     ]
