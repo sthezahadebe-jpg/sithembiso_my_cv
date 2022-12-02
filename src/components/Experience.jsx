@@ -4,13 +4,14 @@ import Html from '../assets/portfolio/Html.png';
 import JavaScript from '../assets/portfolio/JavaScript.png';
 import Css from '../assets/portfolio/Css.png';
 import ReactImage from '../assets/portfolio/ReactImage.png';
-import  GitHub from '../assets/portfolio/GitHub.png';
+// import  GitHub from '../assets/portfolio/GitHub.png';
 import Tailwind from '../assets/portfolio/Tailwind.png';
 import Git from '../assets/portfolio/Git.png';
 import Trello from '../assets/portfolio/Trello.webp';
 import Discord from '../assets/portfolio/Discord.jpeg';
 import Slack from '../assets/portfolio/Slack.webp';
 import Bootstrap from '../assets/portfolio/Bootstrap.png';
+import GitHub from '../assets/portfolio/GitHub.png';
 
 
 
@@ -49,7 +50,7 @@ const Experience = () => {
         },
         {
             id: 6,
-            src: Git,
+            src: GitHub,
             title: 'GITHUB',
             style: 'shadow-gray-400'
         },
@@ -83,7 +84,7 @@ const Experience = () => {
             title: 'BOOTSTRAP',
             style: 'shadow-purple-400'
         },
-
+        
     ]
 
 

@@ -2,8 +2,7 @@ import React from 'react';
 import InstallNodejs from '../assets/portfolio/InstallNodejs.png';
 import NavBar from '../assets/portfolio/NavBar.jpeg';
 import Html from '../assets/portfolio/Html.png';
-import Git_github from '../assets/portfolio/Git_github.png';
-import Bootstrap from '../assets/portfolio/Bootstrap.png';
+import GitHub_Logo from '../assets/portfolio/GitHub_Logo.png';
 import Trello from '../assets/portfolio/Trello.webp';
 import Discord from '../assets/portfolio/Discord.jpeg';
 import Slack from '../assets/portfolio/Slack.webp';
@@ -15,7 +14,7 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: Git_github
+            src: GitHub_Logo
         }, 
         {
             id: 2,
@@ -71,15 +70,6 @@ const Portfolio = () => {
                         portfolios.map(({ id, src }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
-                                {/* <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                                        Demo
-                                    </button>
-
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                                        Code
-                                    </button>
-                                </div> */}
                             </div>
                         ))
                     }
